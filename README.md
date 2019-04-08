@@ -1,7 +1,18 @@
 # MyApp
 
+## Create App
 ```sh
 mix phx.new my-app --app my_app --module MyApp --no-html --no-webpack
+```
+
+## Generate User Schema and Auth Context Modules
+```sh
+mix phx.gen.context Auth User users email:string:unique \is_active:boolean
+mix ecto.migrate
+```
+Help
+```sh
+mix help phx.gen.context
 ```
 
 To start your Phoenix server:
