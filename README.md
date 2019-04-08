@@ -15,6 +15,11 @@ Help
 mix help phx.gen.context
 ```
 
+## Generate a New JSON Endpoint
+```sh
+mix phx.gen.json Auth User users email:string password:string is_active:boolean --no-context --no-schema
+```
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
