@@ -1,4 +1,5 @@
 # MyApp
+> [view tutorial](https://lobotuerto.com/blog/building-a-json-api-in-elixir-with-phoenix/)
 
 ## Create App
 ```sh
