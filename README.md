@@ -19,7 +19,7 @@ mix help phx.gen.context
 ```sh
 mix phx.gen.json Auth User users email:string password:string is_active:boolean --no-context --no-schema
 ```
-
+## Start
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
